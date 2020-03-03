@@ -1,0 +1,64 @@
+
+
+{
+  
+   "data": [  
+        {  
+          "id":1,
+          "name": "vastido azul cielo",
+          "descripcion":"vestido de niña  azul cielo",
+          "precio": 40000.00,
+          "image":"https://i.pinimg.com/236x/2a/0d/b1/2a0db142222e3d88967b9956a4352f2a.jpg"
+         },
+        {
+          "id": 2,
+          "name": "Rey",
+          "descripcion":"conjunto primavera.",
+          "precio":45000.00,
+          "image":"https://i.pinimg.com/originals/ae/26/61/ae2661a91ba42dc8832447fb5e595c60.jpg"
+        },
+          {
+          "id": 3,
+          "name": "Rey",
+          "descripcion":"conjunto otoño.",
+          "precio": 50000.00,
+          "image":"https://i.pinimg.com/originals/90/9c/14/909c14a8e187a531fb36a02bb31f2c6e.jpg"
+        },
+        {
+          "id":4,  
+          "name": "Rey",
+          "descripcion":"vestido seda",
+          "precio":35000.00,
+          "image":"https://i.pinimg.com/236x/98/14/ba/9814ba0d1b20cbeb1122e6a75f87914a.jpg"
+        },
+              
+         {
+          "id":5,  
+          "name": "Rey",
+          "descripcion":"vestido de niña  tallas 1 a la 8 envios a nivel nacional",
+          "precio":47000.00,
+          "image":"https://i.pinimg.com/236x/8f/53/0a/8f530ac23ca977c1432c0749a1d860ce.jpg" 
+        },
+                  {
+          "id":6,  
+          "name": "name",
+          "descripcion":"vestido de niña  tallas 1 a la 8 envios a nivel nacional",
+          "precio":30000.00,
+          "image":"https://i.pinimg.com/236x/ae/11/4e/ae114e76d8623c973aa91d055a5beac6.jpg"
+        },
+         {
+          "id":7,  
+          "name": "conjunto",
+          "descripcion":"conjunto cuadros",
+          "precio":35000.00,
+          "image":"https://i.pinimg.com/236x/81/da/0c/81da0caa4fb30fb3af8274fac2c05b18.jpg"
+        },
+         {
+          "id":9,  
+          "name": "conjunto",
+          "descripcion":"conjunto cuadros",
+          "precio":35000.00,
+          "image":"https://i.pinimg.com/236x/28/e1/78/28e17829c64d35d500a3059bc8d95b1a.jpg"
+        }
+      ]
+   }

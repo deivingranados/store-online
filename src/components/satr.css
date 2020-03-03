@@ -1,0 +1,432 @@
+
+#roote{
+ background-color: #f8f9fa; 
+}
+#show{
+    background-color: #f8f9fa;
+}
+.content-display{
+   width:93%;
+   margin: auto;    
+   padding: 5px;
+   border-radius: 5px;
+   
+}
+.content-info-redes{
+    margin-bottom: 2%;
+}
+
+@-webkit-keyframes img-start
+{
+15%
+{
+-webkit-transform: translateX(5px);
+transform: translateX(5px);
+}
+30%
+{
+-webkit-transform: translateX(-5px);
+transform: translateX(-5px);
+}
+50%
+{
+-webkit-transform: translateX(3px);
+transform: translateX(3px);
+}
+65%
+{
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+80%
+{
+-webkit-transform: translateX(2px);
+transform: translateX(2px);
+}
+100%
+{
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+}
+@keyframes img-start
+{
+15%
+{
+-webkit-transform: translateX(5px);
+transform: translateX(5px);
+}
+30%
+{
+-webkit-transform: translateX(-5px);
+transform: translateX(-5px);
+}
+50%
+{
+-webkit-transform: translateX(3px);
+transform: translateX(3px);
+}
+65%
+{
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+80%
+{
+-webkit-transform: translateX(2px);
+transform: translateX(2px);
+}
+100%
+{
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+}
+.img-start:hover
+{
+    -webkit-animation: img-start 1s ease;
+    animation: img-start 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.img-start{
+    height: 300px;
+    width: 270px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+
+}
+.sesionText{
+    font-size: 20px;
+    color: #212529;
+    cursor: pointer;
+}
+.content-image-main{
+   text-align: center;
+}
+.content-main{
+   position: relative;
+   top: 100px;
+}
+.content-logo-pay{
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.content-info-pay{
+    text-align: center;
+    padding: 3px;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    border: solid 1px rgb(202, 201, 201);
+    margin-bottom: 4px;
+    -webkit-box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+}
+.info-pay{
+    font-size: 11px;
+}
+.image-pay{
+    -webkit-box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+}
+
+.text-infor-modal{
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    position: relative;
+    bottom: 20px;
+    margin-bottom: -29PX;
+    font-family: "Playball";
+
+}
+
+.text-email{
+    font-size: 15px;
+    color: #000000;
+    position: relative;
+    top: 11px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 4%;
+    font-family: "Playball";
+;
+}
+.text-email-red{
+    font-size: 15px;
+    color: #000000;
+    position: relative;
+    top: 11px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2%;
+    color: rgb(184, 0, 0);
+    font-family: "Playball";
+
+}
+.text-email-red-name{
+    font-size: 15px;
+    color: #000000;
+    position: relative;
+    top: 2px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2%;
+    color: rgb(184, 0, 0);
+    font-family: "Playball";
+
+}
+.input-registerform{
+    width: 100%;
+    padding-left: 10px;
+}
+.git{
+    color: #d59e00;
+    font-size: 20px;
+    margin-left: 5%;
+    
+}
+.git-main{
+    color: #000000ad;
+    font-size: 35px;
+    margin-left: 5%;
+    position: relative;
+    top: 9px;
+}
+.git-head{
+    color: #d59e00;
+    font-size: 35px;
+    margin-left: 5%;
+    position: relative;
+    top: 9px;
+}
+.git-head-red{
+    color: #000000eb;
+    font-size: 35px;
+    margin-left: 5%;
+    position: relative;
+    top: 9px;
+}
+.text-infor-modal-precio{
+    text-align: center;
+    border-radius: 2px;
+    color: #495057;
+    font-size: 15px;
+    background-color: #000000eb;
+    color: #d59e00;
+    width: 50%;
+    margin: auto;
+    -webkit-box-shadow: 14px 15px 4px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 15px 4px -8px rgba(0,0,0,0.75);
+    box-shadow: 14px 15px 4px -8px rgba(0,0,0,0.75);
+}
+.facebook{
+    color: #212529;
+    font-size: 20px;
+ 
+   
+}
+.instagran{
+    color: #212529;
+    font-size: 20px;
+    margin-left: 8px;
+
+}
+.youtube{
+    color: #212529;
+    font-size: 20px;
+    margin-left: 8px; 
+
+}
+.wsapp{
+    color: #212529;
+    font-size: 20PX;
+    margin-left: 8px;
+
+}
+.content-image2{
+    width: 200px;
+    height: auto;
+}
+.content-une{
+    margin: auto;
+    width: 88%
+}
+.text-p{
+    font-family: 'Playball';   
+}
+.text-logan{                                     
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.content-title{
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-family: 'Playball';
+    text-align: center;
+    top: 0px;
+    z-index: 2; 
+    position: fixed;
+    width: 100%;
+    -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+}
+.content-main-log{
+    width: 50%;
+    background-color: #000000cc;
+    padding: 3px;
+}
+.content-enlace{
+    width: 50%;
+    padding-top: 24px;
+    background-color: #d59e00db;
+
+}
+.content-image{
+    height: 90px;
+}
+.body-modla{
+    text-align: center;
+}
+.content-imageText {
+    width: 100%;
+    height: auto;
+}
+.text{
+    margin: auto;
+    font-family: 'Playball';
+    font-size: 15px;
+    width: 50px;
+}
+.detail{
+  color:  #d59e00;
+  font-size: 13px;
+  font-family: 'Playball';
+  padding-top: 5px; 
+}
+.sutmit{
+    background-color: #d59e00;
+    color: #000000;
+    margin-top: 4px;
+    padding: 7px;
+    border-radius: 3px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    border: 0;
+    -webkit-box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.75);
+}
+
+#button-pay{
+    background-color:#d59e00 ;
+    color:#000000;
+}
+#button-close{
+    background-color:#000000eb ;
+    color:#d59e00;
+}
+#button{
+   background-color: #000000eb;
+   width: 100%;
+   margin-top: 3px;
+   color:#d59e00;
+   border-radius: 4px;
+   padding: 8px;
+   cursor: pointer;
+}
+.button-detail{
+    width: 120px;
+    height: 25px;
+}
+.content-button-max{
+    max-width: 269px;
+    margin: auto;
+}
+#talla{
+    font-family: "Playball";
+    font-size: 15px;
+    color: #000000;
+    padding-left: 22px;
+}
+#telephone{
+    font-family: "Playball";
+    font-size: 15px;
+    color: #000000;
+    padding-left: 22px;
+}
+#emailUser{
+    font-family: "Playball";
+    font-size: 15px;
+    color: #000000;
+    padding-left: 22px;
+  
+}
+#name{
+    font-family: "Playball";
+    font-size: 15px;
+    color: #000000;
+    padding-left: 22px;
+ 
+}
+@media (min-width: 480px) and (max-width:779px) {
+.content-display{
+    width: 50%;
+    margin: auto;
+    float: left;
+}
+
+}
+@media (min-width: 780px) and (max-width:960px) {
+.content-display{
+    width: 50%;
+    margin: auto;
+    float: left;
+ }
+.content-une{
+   display: flex;
+   padding-left: 30%;
+}
+}
+@media (min-width:960px){
+.content-display{
+   width: 20%;
+   float: left;
+   margin-left: 50px;
+}
+.content-main{
+   max-width: 1400px;
+   margin: auto;
+   top: 90px;
+}
+.content-image2{
+   width: 26%;
+   height: auto;
+   position: relative;
+   right: 52px;
+}
+
+.content-info-redes {
+    margin-bottom: 0%;
+}
+
+.content-imageText {
+    width: 40%;
+    height: auto;
+    position: relative;
+    top: 2px;
+}
+
+}
